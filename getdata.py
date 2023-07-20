@@ -273,7 +273,7 @@ def get_twitter_data(tag):
     
     tweet_list_df.to_csv(file_path, index=False)
 
-    return tweet_list_df, dir_name
+    return tweet_list_df
 
 def get_google_data(searchword, start_date, end_date):
     

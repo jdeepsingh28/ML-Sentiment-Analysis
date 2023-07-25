@@ -246,7 +246,7 @@ def get_google_data(searchword, start_date, end_date):
     
     dir_name = create_data_directory(searchword)
     
-    api = NewsApiClient(api_key='71262aa695c24084be3f41c65507b5f2')
+    api = NewsApiClient(api_key='######################')
     
     all_search = api.get_everything(q=searchword,
                             from_param=start_date,
